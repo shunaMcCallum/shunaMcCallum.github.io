@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "catamaran";
+  /*Can be any text*/
+  src: url("./assets/fonts/Catamaran-Regular.ttf") format("truetype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "rampart";
+  /*Can be any text*/
+  src: url("./assets/fonts/RampartOne-Regular.ttf") format("truetype");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "tajawal";
+  /*Can be any text*/
+  src: url("./assets/fonts/Tajawal-Regular.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "telex";
+  /*Can be any text*/
+  src: url("./assets/fonts/Telex-Regular.ttf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-container {
+  background-color: rgb(34, 27, 35);
+  font-family: catamaran;
+  padding-bottom: 40px;
 }
