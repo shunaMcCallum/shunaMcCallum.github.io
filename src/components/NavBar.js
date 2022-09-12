@@ -9,15 +9,15 @@ const NavBar = () => {
     const navigate = useNavigate();
 
     const handleHomeButtonClick = () => {
-        navigate("/portfolio")
+        navigate("/shunamccallum.github.io")
     }
 
     const handleAboutButtonClick = () => {
-        navigate("/portfolio/about")
+        navigate("/shunamccallum.github.io/about")
     }
 
     const handleProjectsButtonClick = () => {
-        navigate("/portfolio/projects")
+        navigate("/shunamccallum.github.io/projects")
     }
 
     return (

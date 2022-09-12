@@ -16,12 +16,12 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route exact path="/portfolio" element={<HomeContainer />} />
-          <Route exact path="/portfolio/about" element={<About />} />
-          <Route exact path="/portfolio/projects" element={<Projects />} />
-          <Route exact path="/portfolio/projects/the_gym" element={<GymProject />} />
-          <Route exact path="/portfolio/projects/hello_world" element={<HelloWorld />} />
-          <Route exact path="/portfolio/projects/music_elephant" element={<MusicElephant />} />
+          <Route exact path="/shunamccallum.github.io" element={<HomeContainer />} />
+          <Route exact path="/shunamccallum.github.io/about" element={<About />} />
+          <Route exact path="/shunamccallum.github.io/projects" element={<Projects />} />
+          <Route exact path="/shunamccallum.github.io/projects/the_gym" element={<GymProject />} />
+          <Route exact path="/shunamccallum.github.io/projects/hello_world" element={<HelloWorld />} />
+          <Route exact path="/shunamccallum.github.io/projects/music_elephant" element={<MusicElephant />} />
         </Routes>
       </Router>
     </div>
